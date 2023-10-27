@@ -79,7 +79,7 @@ export default function UserReports() {
               }
             />
           }
-          name='Earnings'
+          name='Ganancias'
           value='$350.4'
         />
         <MiniStatistics
@@ -93,10 +93,10 @@ export default function UserReports() {
               }
             />
           }
-          name='Spend this month'
+          name='Gastos este mes'
           value='$642.39'
         />
-        <MiniStatistics growth='+23%' name='Sales' value='$574.34' />
+        <MiniStatistics growth='+23%' name='Ventas' value='$574.34' />
         <MiniStatistics
           endContent={
             <Flex me='-16px' mt='10px'>
@@ -115,7 +115,7 @@ export default function UserReports() {
               </Select>
             </Flex>
           }
-          name='Your balance'
+          name='Tu balance'
           value='$1,000'
         />
         <MiniStatistics
@@ -127,7 +127,7 @@ export default function UserReports() {
               icon={<Icon w='28px' h='28px' as={MdAddTask} color='white' />}
             />
           }
-          name='New Tasks'
+          name='Nuevas Tareas'
           value='154'
         />
         <MiniStatistics
@@ -141,7 +141,7 @@ export default function UserReports() {
               }
             />
           }
-          name='Total Projects'
+          name='Proyectos totales'
           value='2935'
         />
       </SimpleGrid>

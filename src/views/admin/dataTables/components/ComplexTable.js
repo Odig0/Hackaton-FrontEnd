@@ -65,7 +65,7 @@ export default function ColumnsTable(props) {
           fontSize='22px'
           fontWeight='700'
           lineHeight='100%'>
-          Complex Table
+          Tabla Completa
         </Text>
         <Menu />
       </Flex>
@@ -121,7 +121,7 @@ export default function ColumnsTable(props) {
                               : null
                           }
                           as={
-                            cell.value === "Approved"
+                            cell.value === "Aprovado"
                               ? MdCheckCircle
                               : cell.value === "Disable"
                               ? MdCancel

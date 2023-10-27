@@ -83,7 +83,7 @@ function SignIn() {
         flexDirection='column'>
         <Box me='auto'>
           <Heading color={textColor} fontSize='36px' mb='10px'>
-            Sign In
+            Iniciar Sesion
           </Heading>
           <Text
             mb='36px'
@@ -91,7 +91,7 @@ function SignIn() {
             color={textColorSecondary}
             fontWeight='400'
             fontSize='md'>
-            Enter your email and password to sign in!
+            Ingresa tu email y contraseña para ingresar.
           </Text>
         </Box>
         <Flex
@@ -160,7 +160,7 @@ function SignIn() {
               <Input
                 isRequired={true}
                 fontSize='sm'
-                placeholder='Min. 8 characters'
+                placeholder='Minimo. 8 caracteres'
                 mb='24px'
                 size='lg'
                 type={show ? "text" : "password"}
@@ -188,7 +188,7 @@ function SignIn() {
                   fontWeight='normal'
                   color={textColor}
                   fontSize='sm'>
-                  Keep me logged in
+                  Mantener la sesion abierta
                 </FormLabel>
               </FormControl>
               <NavLink to='/auth/forgot-password'>
@@ -197,7 +197,7 @@ function SignIn() {
                   fontSize='sm'
                   w='124px'
                   fontWeight='500'>
-                  Forgot password?
+                  Olvidaste la contraseña?
                 </Text>
               </NavLink>
             </Flex>
@@ -218,14 +218,14 @@ function SignIn() {
             maxW='100%'
             mt='0px'>
             <Text color={textColorDetails} fontWeight='400' fontSize='14px'>
-              Not registered yet?
+              Registrarse
               <NavLink to='/auth/sign-up'>
                 <Text
                   color={textColorBrand}
                   as='span'
                   ms='5px'
                   fontWeight='500'>
-                  Create an Account
+                  Crear una Cuenta 
                 </Text>
               </NavLink>
             </Text>

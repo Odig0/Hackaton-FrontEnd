@@ -79,7 +79,7 @@ export default function Marketplace() {
               direction={{ base: "column", md: "row" }}
               align={{ base: "start", md: "center" }}>
               <Text color={textColor} fontSize='2xl' ms='24px' fontWeight='700'>
-                Trending NFTs
+                Ventas principales
               </Text>
               <Flex
                 align='center'
@@ -91,24 +91,24 @@ export default function Marketplace() {
                   fontWeight='500'
                   me={{ base: "34px", md: "44px" }}
                   to='#art'>
-                  Art
+                  Electronica
                 </Link>
                 <Link
                   color={textColorBrand}
                   fontWeight='500'
                   me={{ base: "34px", md: "44px" }}
                   to='#music'>
-                  Music
+                  Muebles
                 </Link>
                 <Link
                   color={textColorBrand}
                   fontWeight='500'
                   me={{ base: "34px", md: "44px" }}
                   to='#collectibles'>
-                  Collectibles
+                  Ropa
                 </Link>
                 <Link color={textColorBrand} fontWeight='500' to='#sports'>
-                  Sports
+                  Varias
                 </Link>
               </Flex>
             </Flex>
@@ -127,7 +127,7 @@ export default function Marketplace() {
                   Avatar1,
                 ]}
                 image={Nft1}
-                currentbid='0.91 ETH'
+                currentbid='0.3'
                 download='#'
               />
               <NFT

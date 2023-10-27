@@ -64,10 +64,10 @@ export default function HeaderLinks(props) {
 					<Icon color={ethColor} w="9px" h="14px" as={FaEthereum} />
 				</Flex>
 				<Text w="max-content" color={ethColor} fontSize="sm" fontWeight="700" me="6px">
-					1,924
+					26,924
 					<Text as="span" display={{ base: 'none', md: 'unset' }}>
 						{' '}
-						ETH
+						Saldo Total
 					</Text>
 				</Text>
 			</Flex>
